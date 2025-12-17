@@ -22,7 +22,7 @@ export default function StaticMelodicStaff({ notes, timeSignature }: StaticMelod
     const rendererRef = useRef<any>(null);
     const contextRef = useRef<any>(null);
 
-    const STAFF_WIDTH_PER_BAR = 480;
+    const STAFF_WIDTH_PER_BAR = 380;
     const STAFF_HEIGHT = 220;
 
     useEffect(() => {

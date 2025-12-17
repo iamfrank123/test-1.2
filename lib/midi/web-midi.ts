@@ -77,8 +77,11 @@ class MIDIManager {
         }
     }
 
-    private handleMIDIMessage(message: WebMidi.MIDIMessageEvent): void {
-        const [status, note, velocity] = message.data;
+    private handleMIDIMessage(message: MIDIMessageEvent): void {
+        if (!message.data) return;
+        const status = message.data[0];
+        const note = message.data[1];
+        const velocity = message.data[2];
         const command = status >> 4;
 
         // Note On: command = 9, Note Off: command = 8
