@@ -1,6 +1,6 @@
 {
-    "name": "Pentagramma - Piano Trainer",
-    "short_name": "Pentagramma",
+    "name": "Solfeggio - Piano Trainer",
+    "short_name": "Solfeggio",
     "description": "Learn piano with real-time MIDI feedback",
     "start_url": "/",
     "display": "standalone",

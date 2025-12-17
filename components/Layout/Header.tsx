@@ -68,8 +68,8 @@ export default function Header() {
                         {/* Logo */}
                         <div className="flex-shrink-0 flex items-center gap-3">
                             <Link href="/">
-                                <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-orange-500 cursor-pointer">
-                                    PENTAGRAMMA
+                                <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-orange-500 cursor-pointer">
+                                    Solfeggio
                                 </span>
                             </Link>
 

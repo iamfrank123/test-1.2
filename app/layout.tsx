@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Pentagramma - Interactive MIDI Piano Trainer',
+    title: 'Solfeggio - Piano Trainer',
     description: 'Learn piano with real-time MIDI feedback and digital sheet music',
     manifest: '/manifest.json',
     icons: {
